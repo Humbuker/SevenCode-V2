@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>SevenCode™️</title>
+</head>
+<body>
+
+    <header class="container">
+        <div class="content">
+            <span class="blur"></span>
+            <span class="blur"></span>
+            <h4>LEARN NEW LANGUAGES AND BECOME PRO</h4>
+            <div class="content">
+                <H1>Welcome to <span class="text_shadows">SevenCode</span>,new Programmer</H1>
+            </div>
+            <p>
+                Welcome to the world of programming!
+                Learn programming languages, create impressive
+                projects and expand your skills with us.
+            </p>
+        </div>
+        <div class="image">
+            <img src="images/code23.jpg">
+        </div>
+    </header>
+    
+    <nav class="navbar">
+        <div class="navbar-overlay" onclick="toggleMenuOpen()"></div>
+
+        <button type="button" class="navbar-burger" onclick="toggleMenuOpen()">
+            <span class="material-icons">menu</span>
+        </button>
+
+        <h1 class="navbar-title">SevenCode™️</h1>
+        <nav class="navbar-menu">
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/Java'">┆Java</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/JavaScript'">┆JavaScript</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/Python'">┆Python</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/C_Sharp'">┆C#</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/C%2B%2B'">┆C++</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/PHP'">┆PHP</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/SQL'">┆SQL</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/HTML'">┆HTML</button>
+            <button type="button" class="active" onclick="window.location.href='https://ru.wikipedia.org/wiki/Kotlin'">┆Kotlin</button>
+        </nav>
+    </nav>
+
+    <script type="text/javascript">
+        const toggleMenuOpen = () => document.body.classList.toggle("open");
+    </script>
+
+</body>
+</html>
